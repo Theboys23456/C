@@ -3,9 +3,9 @@ from datetime import datetime
 import pytz
 import os
 
-API_ID = int(os.environ.get("API_ID", 123456))
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
+API_ID = int(os.environ.get("API_ID", 21567814))
+API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8133680149:AAE-pf43UZ7Oe5KYNRR_CMNIASYxCAL4tA0")
 
 bot = Client("report-bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
