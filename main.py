@@ -15,7 +15,7 @@ async def report_handler(client, message):
         text = message.text.strip().split()
         if len(text) < 2:
             return await message.reply("⚠️ Usage:
-`/report @channelusername`", quote=True)
+`/report @ChanakyaGKGS_VVIpdf`", quote=True)
 
         channel_username = text[1]
         chat = await client.get_chat(channel_username)
